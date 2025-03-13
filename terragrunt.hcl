@@ -8,6 +8,6 @@ inputs = {
   common_tags = {
     Terragrunt     = "true"
     Environment    = local.my_env_conf.locals.my_env
-    TerragruntPath = "vhive-terragrunt${split("${get_parent_terragrunt_dir()}", get_original_terragrunt_dir())[1]}"
+    TerragruntPath = "far-away-terragrunt${split("${get_parent_terragrunt_dir()}", get_original_terragrunt_dir())[1]}"
   }
 }
